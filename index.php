@@ -69,6 +69,10 @@ if (isset($_POST['login'])) {
                     <small>Default: admin / admin123</small>
                 </div>
             </form>
+
+            <div class="alert">
+                <strong>Info!</strong> Sistem ini dikembangkan untuk keperluan pemetaan UMKM di Kota Semarang.
+            </div>
         </div>
     </div>
 </body>
