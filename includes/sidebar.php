@@ -46,6 +46,12 @@ if ($current_file == 'dashboard.php') {
             <span class="nav-text">Peta UMKM</span>
         </a>
 
+        <a href="../../pages/analisis/index.php"
+            class="nav-item <?php echo (strpos($_SERVER['PHP_SELF'], '/analisis/') !== false) ? 'active' : ''; ?>">
+            <span class="nav-icon">🤖</span>
+            <span class="nav-text">Analisis ML</span>
+        </a>
+
         <a href="<?php echo $root_path; ?>pages/laporan/index.php"
             class="nav-item <?php echo ($current_dir == 'laporan') ? 'active' : ''; ?>">
             <span class="nav-icon">📊</span>
